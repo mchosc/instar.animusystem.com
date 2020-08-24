@@ -1,13 +1,15 @@
 {
   "producer_account_name": "animusbpboid",
   "org": {
-    "candidate_name": "boid.com",
+    "candidate_name": "Boid.com",
     "website": "https://instar.animusystems.com",
+    "ownership_disclosure": "https://instar.animusystems.com",
+    "code_of_conduct": "https://instar.animusystems.com",
     "email": "mchosc@animusystems.com",
-    "branding": {
-      "logo_256": "https://instar.animusystems.com/BoidLogo-lg.png",
-      "logo_1024": "https://instar.animusystems.com/BoidLogo-lg.png",
-      "logo_svg": "https://instar.animusystems.com/boidlogo.svg"
+    "branding":{
+      "logo_256":"https://instar.animusystems.com/BoidLogo-lg.png",
+      "logo_1024":"https://instar.animusystems.com/BoidLogo-lg.png",
+      "logo_svg":"https://instar.animusystems.com/boidlogo.svg"
     },
     "location": {
       "name": "Tenerife, Canary Islands, Spain",
@@ -30,15 +32,37 @@
   "nodes": [
     {
       "location": {
+        "name": "Greenville,SC,USA",
+        "country": "US",
+        "latitude": 34.861960,
+        "longitude": -82.234660
+      },
+      "api_endpoint": "http://mainnet.telosusa.io",
+      "ssl_endpoint": "https://mainnet.telosusa.io",
+      "node_type" : "full"
+    },
+    {
+      {
+      "location": {
         "name": "Tenerife, Canary Islands, Spain",
         "country": "ES",
         "latitude": 28.467319,
         "longitude": -16.247113
       },
-      "node_type": "producer",
       "p2p_endpoint": "boid-on-instar.animusystems.com:4545",
+      "node_type" : "seed"
+    },
+    {
+     "location": {
+        "name": "Tenerife, Canary Islands, Spain",
+        "country": "ES",
+        "latitude": 28.467319,
+        "longitude": -16.247113
+      },
+      "p2p_endpoint": "",
       "api_endpoint": "boid-on-instar.animusystems.com:4747",
-      "ssl_endpoint": "boid-on-instar.animusystems.com:4747"
+      "ssl_endpoint": "boid-on-instar.animusystems.com:4747",
+      "node_type" : "producer"
     }
   ]
 }
