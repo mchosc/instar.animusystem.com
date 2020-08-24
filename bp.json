@@ -29,8 +29,9 @@
       "wechat": ""
     }
   },
-  "nodes": [
-     "location": {
+   "nodes": [
+    {
+      "location": {
         "name": "Tenerife, Canary Islands, Spain",
         "country": "ES",
         "latitude": 28.467319,
@@ -41,7 +42,7 @@
       "node_type" : "full"
     },
     {
-     "location": {
+      "location": {
         "name": "Tenerife, Canary Islands, Spain",
         "country": "ES",
         "latitude": 28.467319,
@@ -51,15 +52,15 @@
       "node_type" : "seed"
     },
     {
-     "location": {
+      "location": {
         "name": "Tenerife, Canary Islands, Spain",
         "country": "ES",
         "latitude": 28.467319,
         "longitude": -16.247113
       },
-      "p2p_endpoint": "https://boid-on-instar.animusystems.com:4747",
-      "api_endpoint": "https://boid-on-instar.animusystems.com:4747",
-      "ssl_endpoint": "https://boid-on-instar.animusystems.com:4747",
+      "p2p_endpoint": "",
+      "api_endpoint": "",
+      "ssl_endpoint": "",
       "node_type" : "producer"
     }
   ]
