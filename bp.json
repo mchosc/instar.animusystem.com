@@ -30,15 +30,14 @@
     }
   },
   "nodes": [
-    {
-      "location": {
-        "name": "Greenville,SC,USA",
-        "country": "US",
-        "latitude": 34.861960,
-        "longitude": -82.234660
+     "location": {
+        "name": "Tenerife, Canary Islands, Spain",
+        "country": "ES",
+        "latitude": 28.467319,
+        "longitude": -16.247113
       },
-      "api_endpoint": "http://mainnet.telosusa.io",
-      "ssl_endpoint": "https://mainnet.telosusa.io",
+      "api_endpoint": "https://boid-on-instar.animusystems.com:4545",
+      "ssl_endpoint": "https://boid-on-instar.animusystems.com:4747",
       "node_type" : "full"
     },
     {
@@ -49,7 +48,7 @@
         "latitude": 28.467319,
         "longitude": -16.247113
       },
-      "p2p_endpoint": "boid-on-instar.animusystems.com:4545",
+      "p2p_endpoint": "https://boid-on-instar.animusystems.com:4545",
       "node_type" : "seed"
     },
     {
@@ -59,9 +58,9 @@
         "latitude": 28.467319,
         "longitude": -16.247113
       },
-      "p2p_endpoint": "",
-      "api_endpoint": "boid-on-instar.animusystems.com:4747",
-      "ssl_endpoint": "boid-on-instar.animusystems.com:4747",
+      "p2p_endpoint": "https://boid-on-instar.animusystems.com:4747",
+      "api_endpoint": "https://boid-on-instar.animusystems.com:4747",
+      "ssl_endpoint": "https://boid-on-instar.animusystems.com:4747",
       "node_type" : "producer"
     }
   ]
