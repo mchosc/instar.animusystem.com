@@ -37,8 +37,8 @@
         "latitude": 28.467319,
         "longitude": -16.247113
       },
-      "api_endpoint": "https://boid-on-instar.animusystems.com:4545",
-      "ssl_endpoint": "https://boid-on-instar.animusystems.com:4747",
+      "api_endpoint": "https://boid-on-instar.animusystems.com",
+      "ssl_endpoint": "https://boid-on-instar.animusystems.com",
       "node_type" : "full"
     },
     {
